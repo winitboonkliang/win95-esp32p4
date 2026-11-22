@@ -19,6 +19,12 @@ app on the same board, launched from icons on the Windows desktop. No PC, no x86
 
 Screenshots: 1280x800 captures of the guest screen, and camera photos of the panel (01, 06, 10). The Doom icons are our own drawings.
 
+## Try it
+
+- **Doom only, 5 minutes:** download `doom-only-kit.zip` from [Releases](https://github.com/winitboonkliang/win95-esp32p4/releases), flash 3 files, put the free shareware `doom1.wad` or [Freedoom](https://freedoom.github.io) on the SD card, power on.
+- **Windows 95 + Doom:** `win95-doom-kit.zip` plus your own Windows 95 disk image.
+- Step by step, troubleshooting and the full build: [docs/TRY_IT.md](docs/TRY_IT.md).
+
 ## Video
 
 - Short overview (about 4.5 min): TODO - YouTube link

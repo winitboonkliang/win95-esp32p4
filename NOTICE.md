@@ -10,6 +10,7 @@ This repository is a combined work. Every third-party file keeps its own copyrig
 | `firmware/esp/components/doomp4/` | doomgeneric (ozkl) / Chocolate Doom (Simon Howard) / id Software Doom source, Nuked OPL3 (Alexey Khokholov) | GPL-2.0-or-later, `firmware/esp/components/doomp4/LICENSE` |
 | `firmware/rust/doomrs/src/` | machine translation (c2rust) of the doomp4 C tree above, plus our hand-written `own/` | GPL-2.0-or-later (derived work) |
 | `firmware/esp/main/gsl/gsl_point_id.c` | Silead GSLx680 touch reference code | GPL-2.0-or-later |
+| `firmware/esp/main/gsl/gsl_fw.h` | GSL3680 touch-controller RAM firmware + config for this panel, vendor data from the board maker's public demo code (Silead / board vendor). No licence text came with it; included so the board works out of the box, for non-commercial hobby use. Rights holders: open an issue and we remove it. | vendor data |
 | `firmware/esp/main/jd9365/esp_lcd_jd9365.*` | Espressif panel driver | Apache-2.0 |
 | `firmware/esp/components/fatfs/` | ESP-IDF 5.4.4 FatFs component (only `src/ffconf.h` changed: exFAT on) | FatFs licence (ChaN) + Apache-2.0 |
 | `firmware/wasm/libc/nanoprintf.h` and other bundled helpers | see each file | see each file |

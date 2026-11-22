@@ -25,7 +25,6 @@ and was **not built from scratch in this exact form**. Expect to fix a path or t
 | `fw/font8.bin` (2048 B, 8x8 glyphs, 128 chars), `fw/font16.bin` (4096 B, 8x16 glyphs, 256 chars) | VGA ROM fonts for our BIOS; dump them from a VGA BIOS you are allowed to use (e.g. SeaBIOS VGA BIOS built yourself) |
 | `vgabios.bin` on the SD card | SeaBIOS VGA BIOS built as in the tiny386 README (`firmware/seabios/config` and `patch`); our native Notepad reads its 8x16 font |
 | `bios.bin` (SeaBIOS) | only for installing Windows on the PC emulator and for `-DB60_FW=0` builds; the board uses our own BIOS |
-| `esp/main/gsl/gsl_fw.h` | GSL3680 touch-controller firmware table for this panel: vendor data from the board maker's demo package (not redistributed here) |
 | Doom WADs | shareware `doom1.wad`, your own `doom.wad` / `doom2.wad` (GOG, Steam), or Freedoom |
 
 ## 1. Rust libraries
