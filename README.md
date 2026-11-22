@@ -27,8 +27,10 @@ Screenshots: 1280x800 captures of the guest screen, and camera photos of the pan
 
 ## Video
 
-- Short overview (about 4.5 min): TODO - YouTube link
-- Full unedited take (50 min, includes a 40 min Ultimate Doom stability run): TODO - YouTube link
+[![Windows 95 + Doom on one ESP32-P4 - 5 min overview](https://img.youtube.com/vi/zey6aW1GAKo/hqdefault.jpg)](https://youtu.be/zey6aW1GAKo)
+
+- **Short overview (about 5 min):** https://youtu.be/zey6aW1GAKo - power on, the Start menu, Control Panel, Device Manager, Notepad, Paint, Doom and the 40 min Ultimate Doom run (Thai narration, English subtitles).
+- Full unedited take (54 min, includes the 40 min Ultimate Doom stability run): coming soon.
 
 ## What works today (22 Nov 2026)
 
