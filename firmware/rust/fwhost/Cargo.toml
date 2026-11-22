@@ -1,0 +1,21 @@
+[package]
+name = "fwhost"
+version = "0.1.0"
+edition = "2021"
+description = "B60 BLUE: host side of our own guest firmware (INT 13h/15h/16h/1Ah/09h served from Rust)"
+
+[lib]
+crate-type = ["rlib"]
+
+[features]
+default = ["standalone"]
+standalone = []
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
+codegen-units = 1
+
+[profile.dev]
+panic = "abort"

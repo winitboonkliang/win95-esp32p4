@@ -1,0 +1,18 @@
+[package]
+name = "w95rs"
+version = "0.1.0"
+edition = "2021"
+description = "Win95 firmware Rust umbrella: B40 timer + B60 own guest firmware host in one staticlib (one panic handler, one core)"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+b40 = { path = "../b40", default-features = false, features = ["fw"] }
+fwhost = { path = "../fwhost", default-features = false }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

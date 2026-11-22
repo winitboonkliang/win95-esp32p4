@@ -1,0 +1,25 @@
+[esp]
+ssid =
+pass =
+; USB HID host: keyboard + mouse (plug in before boot)
+enable_usb = 1
+
+[pc]
+bios = /sdcard/bios.bin
+vga_bios = /sdcard/vgabios.bin
+mem_size = 16M
+vga_mem_size = 2M
+; WIN95_P4 production image (AutoScan=2, no ScanDisk prompt)
+hda = /sdcard/hd.img
+display = gfx95
+display_mode = 1
+hda_overlay = /sdcard/b29_%d.ovl
+fill_cmos = 1
+
+[display]
+width = 1280
+height = 800
+
+[cpu]
+gen = 4
+fpu = 0

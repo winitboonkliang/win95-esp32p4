@@ -1,0 +1,35 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Mouse\0000]
+"MouseType"="PS2"
+"NoSetupUI"="1"
+"InfPath"="msmouse.inf"
+"InfSection"="StdPS2"
+"DriverDate"=" 8-24-1996"
+"DriverDesc"="P4 Touch Pointer"
+
+[HKEY_LOCAL_MACHINE\Enum\Root\*PNP0F0E\0000]
+"DeviceDesc"="P4 Touch Pointer"
+"Mfg"="Win95 P4"
+
+[HKEY_LOCAL_MACHINE\Enum\Root\*PNP0900\0000]
+"DeviceDesc"="P4 TurboPPA Graphics 1280x800 (PPA + PIE accelerated)"
+"Mfg"="Win95 P4"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Display\0000]
+"DriverDesc"="P4 TurboPPA Graphics 1280x800 (PPA + PIE accelerated)"
+
+[HKEY_LOCAL_MACHINE\Enum\Monitor\Default_Monitor\0001]
+"DeviceDesc"="P4 10.1in Touch Display (1280x800, 16-bit color)"
+"Mfg"="Win95 P4"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Monitor\0000]
+"DriverDesc"="P4 10.1in Touch Display (1280x800, 16-bit color)"
+"MaxResolution"="1280,800"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Monitor\0000\MODES\1280,800]
+
+[HKEY_LOCAL_MACHINE\Enum\ESDI\GENERIC_IDE__DISK_TYPE47_\ROOT&*PNP0600&000000]
+"DeviceDesc"="P4 microSD Virtual Disk"
+"Mfg"="Win95 P4"
+

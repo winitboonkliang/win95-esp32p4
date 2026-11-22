@@ -1,0 +1,20 @@
+[package]
+name = "b45ptr"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+debug = "line-tables-only"
+
+[profile.dev]
+opt-level = 1
+
+[features]
+capi = []

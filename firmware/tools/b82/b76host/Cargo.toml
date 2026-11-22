@@ -1,0 +1,19 @@
+[package]
+name = "b76pad"
+version = "0.1.0"
+edition = "2021"
+description = "B76 native Notepad: host side of the B76APP.EXE stub contract (no_std, no heap)"
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+debug-assertions = false
+overflow-checks = false
+
+[profile.dev]
+panic = "abort"

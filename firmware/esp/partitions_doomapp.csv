@@ -1,0 +1,7 @@
+# B83: size check for the Doom app build only (it is flashed into the 4M "doom" partition of partitions.csv; IDF checks an app against
+# the smallest app partition of its own table). Never flashed: boards get partitions.csv from the Windows (DOOM_ENGINE=none) build.
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+doom,app,factory,0x200000,4M,
+storage,data,fat,0x600000,10M,

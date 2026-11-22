@@ -1,0 +1,56 @@
+//! B83 generated (tools/fixdata.py): every module's initial values, called first by b82_data_init
+#[optimize(size)]
+pub unsafe fn b83_init_all() {
+    crate::src::dg::am_map::b83i();
+    crate::src::dg::d_event::b83i();
+    crate::src::dg::d_items::b83i();
+    crate::src::dg::d_iwad::b83i();
+    crate::src::dg::d_loop::b83i();
+    crate::src::dg::d_main::b83i();
+    crate::src::dg::d_mode::b83i();
+    crate::src::dg::d_net::b83i();
+    crate::src::dg::doomstat::b83i();
+    crate::src::dg::dstrings::b83i();
+    crate::src::dg::f_finale::b83i();
+    crate::src::dg::g_game::b83i();
+    crate::src::dg::hu_stuff::b83i();
+    crate::src::dg::i_input::b83i();
+    crate::src::dg::i_joystick::b83i();
+    crate::src::dg::i_oplmusic::b83i();
+    crate::src::dg::i_scale::b83i();
+    crate::src::dg::i_sound::b83i();
+    crate::src::dg::i_video::b83i();
+    crate::src::dg::m_controls::b83i();
+    crate::src::dg::m_menu::b83i();
+    crate::src::dg::m_random::b83i();
+    crate::src::dg::mus2mid::b83i();
+    crate::src::dg::p_enemy::b83i();
+    crate::src::dg::p_inter::b83i();
+    crate::src::dg::p_map::b83i();
+    crate::src::dg::p_maputl::b83i();
+    crate::src::dg::p_mobj::b83i();
+    crate::src::dg::p_plats::b83i();
+    crate::src::dg::p_saveg::b83i();
+    crate::src::dg::p_setup::b83i();
+    crate::src::dg::p_sight::b83i();
+    crate::src::dg::p_spec::b83i();
+    crate::src::dg::p_switch::b83i();
+    crate::src::dg::p_tick::b83i();
+    crate::src::dg::r_bsp::b83i();
+    crate::src::dg::r_draw::b83i();
+    crate::src::dg::r_main::b83i();
+    crate::src::dg::r_plane::b83i();
+    crate::src::dg::r_things::b83i();
+    crate::src::dg::s_sound::b83i();
+    crate::src::dg::st_stuff::b83i();
+    crate::src::dg::statdump::b83i();
+    crate::src::dg::tables::b83i();
+    crate::src::dg::v_video::b83i();
+    crate::src::dg::w_file_stdc::b83i();
+    crate::src::dg::w_wad::b83i();
+    crate::src::dg::wi_stuff::b83i();
+    crate::src::hooks::i_system::b83i();
+    crate::src::hooks::info::b83i();
+    crate::src::hooks::m_config::b83i();
+    crate::src::hooks::sounds::b83i();
+}

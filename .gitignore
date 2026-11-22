@@ -1,0 +1,16 @@
+# build outputs and things you supply yourself - never commit them
+build*/
+target/
+*.a
+*.bin
+*.elf
+*.img
+*.vhd
+*.ovl
+*.DRV
+*.vxd
+*.wad
+*.WAD
+firmware/esp/sdkconfig
+firmware/esp/managed_components/
+__pycache__/

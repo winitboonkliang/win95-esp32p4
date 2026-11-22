@@ -1,0 +1,4 @@
+# tap at screen (100,200), 1 px jitter, rotate180 (rx=y, ry=1279-x)
+T 0 1 200 1179
+T 10 1 201 1180
+T 60 0 0 0

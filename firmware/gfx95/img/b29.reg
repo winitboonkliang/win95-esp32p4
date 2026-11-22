@@ -1,0 +1,12 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Display\0000\DEFAULT]
+"Mode"="16,1280,800"
+"drv"="b29gfx.drv"
+"vdd"="*vdd"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Display\0000\MODES\16\1280,800]
+
+[HKEY_LOCAL_MACHINE\Config\0001\Display\Settings]
+"BitsPerPixel"="16"
+"Resolution"="1280,800"

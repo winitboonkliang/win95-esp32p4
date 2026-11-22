@@ -1,0 +1,14 @@
+# B82: every Doom .bss/COMMON object goes to PSRAM (internal RAM is the emulator's; lead rule: ask before using it).
+# SURROUND gives _b82bss_start/_end + _b82com_start/_end: the Windows boot gives both ranges back to the heap (b82_give_bss), the Doom
+# boot uses them. Same scheme shape as main/linker.lf (bss + common only: a .sbss sections fragment broke the IDF link here).
+[scheme:doom_extram]
+entries:
+    bss -> extern_ram
+    common -> extern_ram
+
+[mapping:doom_psram]
+archive: libdoomp4.a
+entries:
+    * (doom_extram);
+        bss -> extern_ram SURROUND(b82bss),
+        common -> extern_ram SURROUND(b82com)

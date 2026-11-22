@@ -1,0 +1,10 @@
+Draw three ORIGINAL desktop icons for a Windows 95 style desktop (1280x800 screen). They launch a classic 1993-era first-person shooter game. Do NOT copy or imitate any existing game logo, title lettering, character or official artwork (trademarked) - our own design only. No text other than the single letters described below.
+
+Style: 1990s Windows 95 icon look, chunky pixel-friendly shapes, strong dark outline, 3/4 view, light from top-left, limited palette (it will be reduced to the 16-colour Windows palette later), must stay readable when shrunk to 32x32 and 16x16.
+
+1. doom_icon.png - a green-grey space-marine combat helmet with an orange-red visor glow, small flames licking behind it.
+2. ultimate_icon.png - the same helmet, but a gold visor and a small gold star badge on the side (an "ultimate edition" variant).
+3. doom2_icon.png - the same helmet with a blood-red visor and a bold blocky white "2" in the lower right corner.
+
+Each file: 256x256 PNG, transparent background, the subject fills about 85 % of the canvas, centered. Also save a 32x32 and a 16x16 pixel-art redraw of each (doom_icon_32.png, doom_icon_16.png, ultimate_icon_32.png, ...), hand-tuned so the shape reads at that size, transparent background, using only these 16 colours: 000000 800000 008000 808000 000080 800080 008080 C0C0C0 808080 FF0000 00FF00 FFFF00 0000FF FF00FF 00FFFF FFFFFF.
+Save all files in the current folder and list them at the end.

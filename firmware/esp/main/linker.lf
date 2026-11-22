@@ -1,0 +1,10 @@
+# MEM team 16 Nov: the vendor touch ID filter state (6.4 KB bss) is touched ~100 Hz only -> PSRAM, not internal RAM
+[mapping:main_psram_bss]
+archive: libmain.a
+entries:
+    gsl_point_id (extram_bss_all)
+
+[scheme:extram_bss_all]
+entries:
+    bss -> extern_ram
+    common -> extern_ram

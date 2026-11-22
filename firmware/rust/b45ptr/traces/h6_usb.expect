@@ -1,0 +1,5 @@
+20000 8001 647 401
+20000 8003 647 401
+# B87: a held-button move goes out when it happens (was paced into the release at 40000)
+30000 8001 637 401
+40000 8005 637 401

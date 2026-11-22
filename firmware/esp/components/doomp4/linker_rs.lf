@@ -1,0 +1,13 @@
+# B83: the Rust engine's .bss -> PSRAM, same SURROUND names as linker.lf (b82_give_bss gives the range back to the heap in the Windows
+# boot). Rust puts statics in .bss.<sym>/.sbss.<sym>; common does not exist in Rust objects.
+[scheme:doomrs_extram]
+entries:
+    bss -> extern_ram
+    common -> extern_ram
+
+[mapping:doomrs_psram]
+archive: libdoomrs_p.a
+entries:
+    * (doomrs_extram);
+        bss -> extern_ram SURROUND(b83bss),
+        common -> extern_ram SURROUND(b83com)

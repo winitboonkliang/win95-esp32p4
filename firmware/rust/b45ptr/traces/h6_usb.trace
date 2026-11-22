@@ -1,0 +1,6 @@
+# USB relative: start at centre (640,400), Win95 default accel |d|<=2 -> d else 2d; position rides on the button records
+R 0 3 0 0
+R 10 1 1 0
+R 20 0 0 1
+R 30 -5 0 1
+R 40 0 0 0

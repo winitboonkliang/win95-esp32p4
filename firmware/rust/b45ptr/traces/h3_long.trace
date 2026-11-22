@@ -1,0 +1,5 @@
+# long press at (640,400) with 1 px wobble -> right click at the 4 ms tick after 650 ms
+T 0 1 400 639
+T 300 1 401 640
+T 800 1 400 639
+T 900 0 0 0

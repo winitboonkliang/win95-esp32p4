@@ -1,0 +1,12 @@
+*~
+*.o
+.depends
+fmopl.inc
+rust/w95rs/target/
+rust/fwhost/target/
+
+# build outputs and logs (lead 23:2x)
+*.log
+esp/build_*/
+build_remote.log
+rust/doomrs/target*/

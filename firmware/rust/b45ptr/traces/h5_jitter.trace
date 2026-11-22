@@ -1,0 +1,6 @@
+# finger wobbles +-8 px for 300 ms at (500,500): still one tap at the landing point
+T 0 1 500 779
+T 60 1 500 771
+T 120 1 508 779
+T 180 1 495 787
+T 300 0 0 0

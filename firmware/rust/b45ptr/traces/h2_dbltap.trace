@@ -1,0 +1,5 @@
+# double tap: (300,400) then (305,402) 200 ms after the first lift -> second snapped onto the first
+T 0 1 400 979
+T 50 0 0 0
+T 250 1 402 974
+T 300 0 0 0

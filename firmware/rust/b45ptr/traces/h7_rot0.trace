@@ -1,0 +1,4 @@
+# rotate180 off: screen x = ry, y = 799 - rx; tap at (10,20)
+C rotate180 0
+T 0 1 779 10
+T 40 0 0 0

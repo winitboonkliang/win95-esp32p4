@@ -1,0 +1,7 @@
+# set_pointer_abs (B70): 3 positions 1 ms apart (no 30 Hz pacing, no merging), press, move held, release
+A 0 100 100 0
+A 1 101 100 0
+A 2 102 100 0
+A 3 102 100 1
+A 4 500 300 1
+A 5 500 300 0

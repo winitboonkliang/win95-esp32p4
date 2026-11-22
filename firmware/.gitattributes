@@ -1,0 +1,4 @@
+esp/main/p1_trace.txt -text
+ptr/reg/* -text
+tools/b82/*.sh text eol=lf
+tools/b83/*.sh text eol=lf

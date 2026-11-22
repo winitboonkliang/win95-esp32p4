@@ -1,0 +1,48 @@
+; B29GFX.INF - BLUE B29a: installs the GFX95 display minidriver, three modes at 16 bpp: 1280x800 (1:1), 1024x640 (scaled 1.25x by the host PPA),
+; 640x400 (scaled 2x). One driver file per mode (each Enable()s its own size, all three ValidateMode() every mode); the Display Properties slider lists the
+; MODES keys, a restart loads the driver named by the chosen mode. Own file, syntax as MSDISP.INF [SVGA.AddReg].
+; The boot mode is chosen by the registry (DEFAULT\Mode); on the board the ini key display_mode = 1|2|3 picks the matching preloaded overlay (b29_N.ovl).
+[Version]
+Signature="$CHICAGO$"
+Class=Display
+Provider=%Mfg%
+
+[Manufacturer]
+%Mfg%=B29.Mfg
+
+[B29.Mfg]
+%B29.Desc%=B29.Install, PCI\VEN_1234&DEV_1111
+
+[B29.Install]
+CopyFiles=B29.Copy
+AddReg=B29.AddReg
+
+[B29.Copy]
+b29gfx.drv
+b29g1024.drv
+b29g640.drv
+
+[B29.AddReg]
+HKR,,DevLoader,,*vdd
+HKR,DEFAULT,Mode,,"16,1280,800"
+HKR,DEFAULT,drv,,b29gfx.drv
+HKR,DEFAULT,vdd,,"*vdd"
+HKR,"MODES\16\1280,800",drv,,b29gfx.drv
+HKR,"MODES\16\1024,640",drv,,b29g1024.drv
+HKR,"MODES\16\640,400",drv,,b29g640.drv
+
+[DestinationDirs]
+B29.Copy=11
+
+[SourceDisksNames]
+1=%Disk%,,0
+
+[SourceDisksFiles]
+b29gfx.drv=1
+b29g1024.drv=1
+b29g640.drv=1
+
+[Strings]
+Mfg="BLUE B29a"
+B29.Desc="GFX95 paravirtual display (1280x800 / 1024x640 / 640x400, 16 bpp)"
+Disk="B29GFX driver disk"
