@@ -95,7 +95,7 @@ Done: everything in "What works today". In progress and planned (honest list wit
 
 ## Build it yourself
 
-Short version (full guide: [docs/BUILD.md](docs/BUILD.md)):
+Short version (full guide: [docs/BUILD.md](docs/BUILD.md); every setting, the SD card layout, flash layout, Doom options and the service console: [docs/CONFIG.md](docs/CONFIG.md)):
 
 1. Hardware: Guition **JC8012P4A1** (ESP32-P4 chip v1.x, 32 MB PSRAM, 16 MB flash, 10.1" 1280x800 JD9365 panel, GSL3680 touch,
    ES8311 codec), a microSD card (exFAT or FAT32), USB-C cable. Optional: USB keyboard, mouse, gamepad.
